@@ -64,6 +64,7 @@ public class FXMLController {
     void doSpellCheck(ActionEvent event) {
     	List <RichWord> daRestituire = new ArrayList <RichWord>(); 
     long start=System.nanoTime();
+    txtRisultato.clear();
     	//controllo che lingua ha inserito 
     if (cmbLingua.getValue()==null)
     {
